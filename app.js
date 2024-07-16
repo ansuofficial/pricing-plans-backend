@@ -1,5 +1,6 @@
 const express = require("express");
 const cartData = require("./pricing-card-data");
+const cors = require("cors")
 const app = express();
 
 app.use(express.json());
