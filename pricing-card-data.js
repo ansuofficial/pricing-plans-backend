@@ -1,4 +1,4 @@
-module.exports  = [
+module.exports  = 
   {
     pricingPlans: [
       {
@@ -51,4 +51,3 @@ module.exports  = [
       },
     ],
   }
-];
