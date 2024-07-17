@@ -15,22 +15,6 @@ module.exports = [
       "Perfect for individuals or small teams starting out and needing essential features at an affordable price.",
   },
   {
-    name: "Standard Plan",
-    price: "29.99",
-    currency: "USD",
-    billingCycle: "monthly",
-    features: [
-      "Access to all Basic features",
-      "100 GB storage",
-      "Priority email support",
-      "Advanced analytics",
-      "Integration with third-party apps",
-      "Monthly webinars and tutorials",
-    ],
-    description:
-      "Ideal for growing teams and businesses that need more storage and advanced features to scale their operations efficiently.",
-  },
-  {
     name: "Premium Plan",
     price: "59.99",
     currency: "USD",
@@ -46,5 +30,21 @@ module.exports = [
     ],
     description:
       "Best suited for larger organizations or businesses requiring top-tier support, extensive storage, and customized solutions to drive growth and performance.",
+  },
+  {
+    name: "Standard Plan",
+    price: "29.99",
+    currency: "USD",
+    billingCycle: "monthly",
+    features: [
+      "Access to all Basic features",
+      "100 GB storage",
+      "Priority email support",
+      "Advanced analytics",
+      "Integration with third-party apps",
+      "Monthly webinars and tutorials",
+    ],
+    description:
+      "Ideal for growing teams and businesses that need more storage and advanced features to scale their operations efficiently.",
   },
 ];
